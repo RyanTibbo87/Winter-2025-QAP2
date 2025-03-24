@@ -1,0 +1,11 @@
+com\golfclub\models\Member.class
+com\golfclub\controllers\TournamentController.class
+com\golfclub\models\Tournament$TournamentBuilder.class
+com\golfclub\GolfClubApplication.class
+com\golfclub\models\Tournament.class
+com\golfclub\repositories\TournamentRepository.class
+com\golfclub\repositories\MemberRepository.class
+com\golfclub\services\MemberService.class
+com\golfclub\controllers\MemberController.class
+com\golfclub\services\TournamentService.class
+com\golfclub\models\Member$MemberBuilder.class
