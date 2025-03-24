@@ -12,6 +12,8 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
+    networks:
+      - golfnet
 
   golfclub-api:
     build: .
@@ -20,6 +22,11 @@ services:
       - "8080:8080"
     depends_on:
       - mysql
+    networks:
+      - golfnet
 
 volumes:
   mysql_data:
+
+networks:
+  golfnet:
